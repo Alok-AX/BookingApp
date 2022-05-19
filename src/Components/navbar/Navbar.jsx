@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className='navbar'>
         <div className="navConatiner">
             <span className='logo'>
-                AlokBooking
+                Booking.io
             </span>
             <div className="navItems">
             <button className='navbutton'>Register</button>

@@ -1,5 +1,5 @@
 .header{
-    background-color: #003580;
+    /* background-color: #003580; */
     color: #fff;
     display: flex;
     justify-content: center;
@@ -8,7 +8,7 @@
 .headerContainer{
     width: 100%;
     max-width: 1024px;
-    margin: 20px 0px 100px 0px;
+    margin: 20px 0px 25px 0px;
 }
 .headerContainer.listMode{
     margin: 20px 0px 0px 0px;
@@ -34,13 +34,18 @@
 }
 .headDesc{
     margin: 20px 0px;
+    line-height: 28px;
+    font-size: 16px;
+    color: #fff;
 }
 .headerBtn{
     background-color: #003580;
-    padding: 10px 15px;
-    border: 1px solid #fff;
+    padding: 15px 20px;
+    border: 1px solid #003580;
     color: #fff;
     cursor: pointer;
+    font-size: 14px;
+    border-radius: 2px;
 }
 .headersearch{
     height: 30px;
@@ -52,12 +57,23 @@
     border-radius: 5px;
     padding: 10px 0px;
     position: absolute;
-    bottom: -25px;
+    bottom: -77px;
     width: 100%;
     max-width: 1024px;
+
+    }
+
+.headerBtn-search{
+    background-color: #003580;
+    padding: 10px 20px;
+    border: 1px solid #003580;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 2px;
 }
 .headerIcon{
-    color: lightgray;
+    color: #003580;
 
 }
 .headSearchItem{
@@ -70,7 +86,7 @@
     border: none;
 }
 .headerSearchText{
-    color: lightgray;
+    color: #7f7979;
     cursor: pointer;
 }
 .date{

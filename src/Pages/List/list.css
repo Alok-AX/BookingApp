@@ -4,6 +4,24 @@
     margin-top: 20px;
 
 }
+.listTitle{
+    margin: 10px 0px 10px 0px;
+}
+.listItem{
+    width: 100%;
+
+}
+.listItem label{
+    font-size: 14px;
+    color: #003580;
+    margin-top: 10px;
+}
+.listItem input{
+    height: 25px;
+    width: 97%;
+    border: 1px solid #febb02;
+    outline: none;
+}
 .listWrapper{
     width: 100%;
     max-width: 1024px;
@@ -14,9 +32,10 @@
 flex: 1;
 background-color: #febb02;
 padding: 10px;
-border-radius: 10px;
+border-radius: 5px;
 position: sticky;
 top: 10px;
+height: max-content;
 
 }
 .lsItem{
@@ -30,6 +49,7 @@ top: 10px;
 }
 .lsItem>label{
     font-size: 12px;
+    
     
 }
 

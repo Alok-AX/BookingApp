@@ -8,12 +8,16 @@
 }
 .pListItems{
     flex: 1;
-    border-radius: 10px;
+    border-radius: 6px;
     overflow: hidden;
     cursor: pointer;
-
-
+    border: 1px solid #f1f1f1;
+    padding: 5px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
+
+
+
 .pListImg{
     width: 100%;
     height: 150px;

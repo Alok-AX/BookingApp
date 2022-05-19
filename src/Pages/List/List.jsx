@@ -5,25 +5,28 @@ import {useLocation} from 'react-router-dom'
 import './list.css';
 import { format } from "date-fns";
 import { DateRange } from 'react-date-range';
+import SearchItems from '../../Components/SearchItems/SearchItems';
 
 const List = () => {
   const location = useLocation()
   console.log(location)
 
-  const [destination,setDestination]=useState(location.state.destination)
+  const [destination]=useState(location.state.destination)
   const [date,setDate]=useState(location.state.date)
   const [openDate,setOpenDate]=useState(false)
 
-  const [options,setOptions]=useState(location.state.options)
+  const [options]=useState(location.state.options)
 
   return (
     <div>
+       <div className="hotelheadpart">
       <Navbar/>
       <Header type='list'/>
+      </div>
       <div className="listContainer">
         <div className="listWrapper">
           <div className="listSearch">
-          <h1 className='listTitle'> search</h1>
+          <h1 className='listTitle'> search </h1>
              <div className="listItem">
                <label htmlFor="">Destination</label>
                <input type="text" placeholder={destination} />
@@ -77,6 +80,16 @@ const List = () => {
           <button>Search</button>
           </div>
           <div className="listResult">
+            <SearchItems/>
+            <SearchItems/>
+            <SearchItems/>
+            <SearchItems/>
+            <SearchItems/>
+            <SearchItems/>
+            <SearchItems/>
+            <SearchItems/>
+            <SearchItems/>
+
         
             
             </div>

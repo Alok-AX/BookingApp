@@ -9,3 +9,14 @@
     width: 1024px;
     font-size: 20px;
 }
+
+.header-main-wrapper{
+    background-image: url('../../Images//bannerheader.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    padding: 50px;
+  
+}

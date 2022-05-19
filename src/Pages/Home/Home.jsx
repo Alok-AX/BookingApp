@@ -13,8 +13,12 @@ import Footer from '../../Components/Footer/Footer';
 const Home = () => {
   return (
     <div>
+      <div className='header-main-wrapper'>
       <Navbar/>
       <Headers/>
+
+      </div>
+     
       <div className="homeContainer">
         <Featured/>
         <h1 className='homeTitel'>Browser By Property Type</h1>

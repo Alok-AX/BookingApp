@@ -3,9 +3,11 @@ import './Fetureproperties.css';
 
 
 const Fetureproperties = () => {
+
   return (
+    <>
     <div className='fp'>
-                <div className="fpItems">
+        <div className="fpItems">
 
         <img src="https://picsum.photos/id/999/400/400" alt="" className='fpImg' />
         <span className='fpName'>Aparthotel Stare Miasto</span>
@@ -41,7 +43,8 @@ const Fetureproperties = () => {
         </div>
      
 
-        </div>   <div className="fpItems">
+        </div>  
+         <div className="fpItems">
         <img src="https://picsum.photos/id/559/400/400" alt="" className='fpImg' />
         <span className='fpName'>Aparthotel Stare Miasto</span>
         <span className='fpCity'>Madrid</span>
@@ -52,7 +55,8 @@ const Fetureproperties = () => {
         </div>
      
 
-        </div>   <div className="fpItems">
+        </div> 
+          <div className="fpItems">
         <img src="https://picsum.photos/id/99/400/400" alt="" className='fpImg' />
         <span className='fpName'>Aparthotel Stare Miasto</span>
         <span className='fpCity'>Madrid</span>
@@ -63,7 +67,8 @@ const Fetureproperties = () => {
         </div>
     
 
-        </div>   <div className="fpItems">
+        </div>  
+         <div className="fpItems">
         <img src="https://picsum.photos/id/59/400/400" alt="" className='fpImg' />
         <span className='fpName'>Aparthotel Stare Miasto</span>
         <span className='fpCity'>Madrid</span>
@@ -75,8 +80,10 @@ const Fetureproperties = () => {
      
 
         </div>
+        </div>
 
-    </div>
+
+</>
   )
 }
 

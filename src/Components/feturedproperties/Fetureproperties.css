@@ -10,24 +10,33 @@
     gap: 10px;
     display: flex;
     flex-direction: column;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    padding: 10px;
+
+    
 }
 .fpImg{
     width: 100%;
 }
 .fpName{
     font-weight:bold;
+    font-size: 16px;
+    color: #003580;
 }
 .fpCity{
     font-weight: 300;
+    font-size: 12px;
+    color: #05050591;
 }
 .fpPrice{
-    font-weight: 500;
+    font-weight: 300;
+    font-size: 14px;
 }
 .fpRating>button{
     background-color: #003580;
     color: #fff;
     border: none;
-    padding: 3px;
+    padding: 3px 7px;
     margin-right:10px ;
     font-weight: bold;
 
